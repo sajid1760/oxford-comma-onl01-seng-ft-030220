@@ -1,7 +1,8 @@
 array = ["fiddleheads","okra","kohlrabi"]
 
 def oxford_comma(array)
- case array.size = 1 
+ case array.size 
+ when 1
   commastring = array
   puts commastring
  case array.size = 2
