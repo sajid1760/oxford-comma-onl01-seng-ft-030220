@@ -1,11 +1,10 @@
 array = ["fiddleheads","okra","kohlrabi"]
 
 def oxford_comma(array)
- case array.size 
- when 1
+ if array.size == 1 then
   commastring = array
   puts commastring
- when 2
+ elsif array.size == 2 then
   commastring = array.join(" and ")
   puts commastring
 else 
