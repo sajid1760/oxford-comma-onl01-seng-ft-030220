@@ -17,4 +17,4 @@ else
  end
  end
 
-# oxford_comma(array)
+oxford_comma(array)
