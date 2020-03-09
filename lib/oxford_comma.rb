@@ -5,8 +5,8 @@ def oxford_comma(array)
  newarray = array 
  newarray.pop
  puts newarray.inspect
+ newarray.push("and #{array.last}")
  puts newarray.inspect
- # commastring = newarray.join
  # commastring = commastring + ", and " + array.last 
  # puts commastring
  end
