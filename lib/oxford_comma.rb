@@ -1,4 +1,5 @@
-array = ["fiddleheads","okra","kohlrabi"]
+#array = ["fiddleheads","okra","kohlrabi"]
+array = ["element"]
 
 def oxford_comma(array)
  if array.size == 1 then
