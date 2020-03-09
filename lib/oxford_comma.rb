@@ -2,6 +2,7 @@ array = ["fiddleheads","okra","kohlrabi"]
 
 def oxford_comma(array)
  commaarray = []
+ piece = 
  a = array.size 
  b = 0
  a.times do 
