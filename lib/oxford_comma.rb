@@ -2,14 +2,16 @@ array = ["fiddleheads","okra","kohlrabi"]
 
 def oxford_comma(array)
  commaarray = []
- piece = 
+ piece = "piece"
  a = array.size 
  b = 0
  a.times do 
    if b = a - 1 then 
-     commaarray += ",and" + array[b]
+     piece = array[b]
+     commaarray = commaarray + ",and" + piece
    else 
-     commaarray += ", " + array[b]
+     piece = array[b]
+     commaarray = commaarray + ", " + array[b]
    end
  end
 puts commaarray
