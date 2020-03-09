@@ -1,5 +1,5 @@
 #array = ["fiddleheads","okra","kohlrabi"]
-array = ["element"]
+array = ["element", "one more element"]
 
 def oxford_comma(array)
  if array.size == 1 then
