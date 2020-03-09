@@ -5,7 +5,7 @@ def oxford_comma(array)
  when 1
   commastring = array
   puts commastring
- case array.size = 2
+ when 2
   commastring = array.join(" and ")
   puts commastring
 else 
