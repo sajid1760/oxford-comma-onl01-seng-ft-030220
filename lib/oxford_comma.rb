@@ -10,6 +10,7 @@ def oxford_comma(array)
    else 
      commaarray += ", " + array[b]
    end
+ end
 puts commaarray
 end
 
