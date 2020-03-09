@@ -1,16 +1,16 @@
 array = ["fiddleheads","okra","kohlrabi"]
 
 def oxford_comma(array)
- puts array.inspect
+ # puts array.inspect
  piece = array.last
- puts piece
+ # puts piece
  newarray = array 
  newarray.pop
- puts newarray.inspect
+ # puts newarray.inspect
  newarray.push("and #{piece}")
- puts newarray.inspect
+ # puts newarray.inspect
  commastring = newarray.join(", ")
- puts commastring
+ commastring
  end
 
-oxford_comma(array)
+# oxford_comma(array)
